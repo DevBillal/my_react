@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Rawles Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Rawles Regular'), url('./fonts/Rawles-JR2gm.woff') format('woff');
+}
+.body{
+    background: linear-gradient(27deg, rgba(65,9,121,1) 23%, rgba(0,212,255,1) 75%);
+}
+.name{
+    grid-column: 1/-1;
+}
+.card-grid-wrapper{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    font-family: 'Rawles Regular';
+}
+img{
+    border-radius: 101px;
+}
+.img-background:hover {
+    border-radius: 90px;
+    transition: all 0.3s ease-in-out;
+}
