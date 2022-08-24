@@ -1,0 +1,18 @@
+.input {
+  height: 38px;
+  margin-top: 1px;
+  padding: 0.5rem 1rem !important;
+  font-size: 1rem !important;
+  border: 2px solid #c9151b;
+  background-color: #f5f6f7;
+}
+
+.search {
+  height: 40px;
+  background-color: #c9151b;
+}
+
+.icon {
+  color: #fff;
+  margin: 0.5rem;
+}

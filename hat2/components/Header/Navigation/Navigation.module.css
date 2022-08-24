@@ -1,0 +1,49 @@
+.navbar {
+  background-color: #1a202c;
+  height: 50px;
+}
+
+.container {
+  max-width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*DropDown*/
+.dropdown {
+}
+
+.categories {
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+  background-color: #c53030;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 9px;
+  cursor: pointer;
+}
+
+.navs {
+  margin-top: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navLink {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.nav1 {
+  display: flex;
+  column-gap: 40px;
+}
+
+.nav2 {
+  display: flex;
+  column-gap: 30px;
+}

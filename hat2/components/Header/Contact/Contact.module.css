@@ -1,0 +1,48 @@
+.main {
+  background-color: #f7f8fa;
+  border-bottom: 1px solid #e2e8f0;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.container {
+  max-width: 1250px;
+  display: flex;
+  align-items: center;
+  padding: 0.1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Unicons {
+  color: #e25a61;
+  width: 1.35rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  padding-top: 0.1rem !important;
+  padding-left: 0.4rem;
+}
+
+span {
+  padding-top: 0.1rem;
+  padding-left: 0.4rem;
+}
+
+.tel {
+  padding: 0.3rem;
+  display: flex;
+}
+
+.email {
+  padding: 0.5rem;
+  display: flex;
+}
+
+.happy {
+  padding: 0.5rem;
+  display: flex;
+  margin-left: auto;
+}
